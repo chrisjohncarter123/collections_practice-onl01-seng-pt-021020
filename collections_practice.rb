@@ -53,4 +53,13 @@ def kesha_maker(array)
   result
 end
 
-kesha_maker(["hello", "fasd", "fdsfff"])
+def find_a (array)
+  result = []
+  while array.find? do |s|
+    if (s.split("")[0] == 'a')
+      result << s
+    end
+    
+  end
+  result
+end
