@@ -55,12 +55,7 @@ end
 
 def find_a(array)
   result = []
-  while array.find? do |s|
-    if (s.split("")[0] == 'a')
-      result << s
-    end
-    
-  end
+
   result
 end
 
