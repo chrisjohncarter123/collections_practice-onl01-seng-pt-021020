@@ -56,11 +56,11 @@ end
 def find_a(array)
   return array.find_all { |i| i.chars.first == 'a' }
 end
-puts find_a(["hello", "hi", "asdf"])
+
 def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
 
 def add_s(array)
-  
+  array.each
 end
