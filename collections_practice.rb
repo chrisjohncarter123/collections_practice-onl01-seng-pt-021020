@@ -45,7 +45,7 @@ def kesha_maker(array)
       end
       counter += 1
     end
-    
+    puts result_word
     result << result_word
   end
   
