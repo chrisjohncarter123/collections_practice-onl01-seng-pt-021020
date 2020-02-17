@@ -41,7 +41,7 @@ def kesha_maker(array)
       if(counter == 2)
         result_word << "$"
       else
-        result_word << word.split[counter]
+        result_word << word.split("")[counter]
       end
       
       counter += 1
