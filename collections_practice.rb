@@ -36,7 +36,7 @@ def kesha_maker(array)
   array.each do |word|
     counter = 0;
     result_word = ""
-    word.each do |letter|
+    word.split.each do |letter|
       
       if(counter == 2)
         result_word << "$"
