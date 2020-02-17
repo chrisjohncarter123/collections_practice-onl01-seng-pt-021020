@@ -54,7 +54,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  return array.find_all { |i| i.split("")[0] == 'a' }
+  return array.find_all { |i| i.chars.first == 'a' }
 end
 
 def sum_array(array)
