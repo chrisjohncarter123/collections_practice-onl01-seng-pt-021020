@@ -51,3 +51,5 @@ def kesha_maker(array)
   
   result
 end
+
+kesha_maker(["hello", "fasd", "fdsfff"])
