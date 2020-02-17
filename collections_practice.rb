@@ -63,3 +63,8 @@ def find_a (array)
   end
   result
 end
+
+def sum_array(array)
+  
+  
+end
