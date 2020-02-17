@@ -64,5 +64,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.inject { |sum, n| sum + n }
+  array.
 end
