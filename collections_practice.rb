@@ -38,6 +38,7 @@ def kesha_maker(array)
     result_word = ""
     word.split.each do |letter|
       
+      puts counter
       if(counter == 2)
         result_word << "$"
       else
