@@ -55,7 +55,7 @@ end
 
 def find_a(array)
   result = []
-  result.find { |i| i.first == "a" }
+  result.findall { |i| i.first == "a" }
   result
 end
 
