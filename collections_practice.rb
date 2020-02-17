@@ -54,9 +54,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  puts array.find_all { |i| i.chars.first == 'a' }
+  return array.find_all { |i| i.chars.first == 'a' }
 end
-find_a(["hello", "hi", "asdf"])
+puts find_a(["hello", "hi", "asdf"])
 def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
